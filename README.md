@@ -1,6 +1,6 @@
-##REST API Tests for reqres.in
+## REST API Tests for reqres.in
 
-###Smoke Tests
+### Smoke Tests
 
 * GET /api/users?page=2
 * GET /api/users/2
