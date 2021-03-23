@@ -56,8 +56,10 @@ public class ReqresTests extends TestBase {
                 .log().body()
                 .body("id",
                         is(notNullValue()))
-                .body("name", is("morpheus"))
-                .body("job", is("leader"));
+                .body("name",
+                        is("morpheus"))
+                .body("job",
+                        is("leader"));
     }
 
     @Test
